@@ -1,0 +1,48 @@
+.form {
+  display: flex;
+  flex-direction: column;
+  gap: 0px;
+  margin: 0 auto;
+
+  -webkit-box-shadow: 13px 0px 29px -3px rgba(66, 68, 90, 1);
+  -moz-box-shadow: 13px 0px 29px -3px rgba(66, 68, 90, 1);
+  box-shadow: 13px 0px 29px -3px rgba(66, 68, 90, 1);
+  border-radius: 0px 50px 50px 0px;
+}
+
+.input {
+  width: 300px;
+  padding: 10px;
+
+  font-size: 24px;
+  font-style: italic;
+  text-shadow: 5px -5px 12px rgb(200, 205, 242);
+}
+
+::placeholder {
+  padding: 10px;
+  font-size: 20px;
+}
+
+.selector {
+  font-size: 20px;
+  padding-left: 10px;
+  padding-right: 15px;
+  width: fit-content;
+  height: 50px;
+}
+
+.countButton {
+  width: fit-content;
+  height: 50px;
+  font-size: 20px;
+  padding-left: 16px;
+  padding-right: 16px;
+  border-radius: 0px 50px 50px 0px;
+}
+
+@media screen and (min-width: 769px) {
+  .form {
+    flex-direction: row;
+  }
+}

@@ -1,0 +1,14 @@
+.main {
+  width: 100%;
+  height: calc(100vh - 40px);
+  background-image: url("../../../public/images/background-money.jpg");
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  margin: 0 auto;
+
+  position: relative;
+}

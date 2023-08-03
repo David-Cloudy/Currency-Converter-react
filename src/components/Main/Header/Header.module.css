@@ -1,0 +1,30 @@
+.header {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  position: absolute;
+  top: 60px;
+}
+
+.logo {
+  height: 150px;
+  width: 150px;
+  border-radius: 50%;
+  object-fit: cover;
+
+  margin: 0 auto;
+}
+
+.headerText {
+  color: rgb(238, 238, 245);
+  font-size: 32px;
+  text-shadow: 3px 3px 4px rgb(20, 20, 21);
+  background-color: rgb(80, 76, 76);
+  padding: 10px 100px;
+}
+
+@media screen and (min-width: 769px) {
+  .headerText {
+    font-size: 50px;
+  }
+}
