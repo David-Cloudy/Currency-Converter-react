@@ -1,4 +1,3 @@
-import { type } from "@testing-library/user-event/dist/type";
 import styles from "./Form.module.css";
 
 const Form = (props) => {
