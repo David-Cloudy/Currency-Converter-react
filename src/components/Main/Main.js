@@ -1,3 +1,4 @@
+import React from "react";
 import styles from "./Main.module.css";
 import Container from "./Container/Container";
 import Header from "./Header/Header";
