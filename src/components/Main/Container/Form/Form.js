@@ -15,6 +15,9 @@ const Form = (props) => {
         const rate = data.rates[0].mid;
         const result = (amount * rate).toFixed(2);
         props.onResultChange(result);
+      })
+      .catch(() => {
+        window.alert("Wystąpił błąd pobierania danych");
       });
   };
   return (
