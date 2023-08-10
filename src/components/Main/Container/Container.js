@@ -4,9 +4,14 @@ import { useState } from "react";
 
 const Container = () => {
   const [result, setResult] = useState("");
+
+  const handleOnResultChange = (result) => {
+    setResult(result);
+  };
+
   return (
     <div className={styles.container}>
-      <Form onResultChange={setResult} />
+      <Form onResultChange={handleOnResultChange} />
       {result ? <h2 className={styles.resultWrapper}>{result} zł</h2> : null}
     </div>
   );
