@@ -20,12 +20,14 @@
   font-size: 32px;
   text-shadow: 3px 3px 4px rgb(20, 20, 21);
   background-color: rgb(80, 76, 76);
-  padding: 10px 100px;
+  padding: 10px;
   text-align: center;
 }
 
 @media screen and (min-width: 769px) {
   .headerText {
     font-size: 50px;
+    padding-left: 100px;
+    padding-right: 100px;
   }
 }
